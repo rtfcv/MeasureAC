@@ -492,6 +492,3 @@ class DandDhandler:
         self.clickHook = onClick
         self.dragHook = onDrag
         self.dropHook = onDrop
-
-
-PyFitMain()
