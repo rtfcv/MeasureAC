@@ -63,6 +63,11 @@ class PyFitMain:
         self.root = tkinter.Tk()
         self.root.title('measureac')
 
+        self.style = ttk.Style()
+        print(self.style.theme_names())
+        # self.style.theme_use('classic')
+        self.style.theme_use('clam')
+
         self.leftPane = ttk.Frame(self.root, padding=2)
         self.centerPane = ttk.Frame(self.root, padding=2)
         self.rightPane = ttk.Frame(self.root, padding=2)
